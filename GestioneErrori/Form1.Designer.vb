@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Sottrai = New System.Windows.Forms.Button
         Me.Moltiplica = New System.Windows.Forms.Button
         Me.Dividi = New System.Windows.Forms.Button
+        Me.Button1 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'TextBox1
@@ -64,7 +65,7 @@ Partial Class Form1
         'Somma
         '
         Me.Somma.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Somma.Location = New System.Drawing.Point(194, 53)
+        Me.Somma.Location = New System.Drawing.Point(192, 26)
         Me.Somma.Name = "Somma"
         Me.Somma.Size = New System.Drawing.Size(28, 35)
         Me.Somma.TabIndex = 5
@@ -74,7 +75,7 @@ Partial Class Form1
         'Sottrai
         '
         Me.Sottrai.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Sottrai.Location = New System.Drawing.Point(228, 53)
+        Me.Sottrai.Location = New System.Drawing.Point(226, 26)
         Me.Sottrai.Name = "Sottrai"
         Me.Sottrai.Size = New System.Drawing.Size(28, 35)
         Me.Sottrai.TabIndex = 6
@@ -84,7 +85,7 @@ Partial Class Form1
         'Moltiplica
         '
         Me.Moltiplica.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Moltiplica.Location = New System.Drawing.Point(194, 94)
+        Me.Moltiplica.Location = New System.Drawing.Point(192, 76)
         Me.Moltiplica.Name = "Moltiplica"
         Me.Moltiplica.Size = New System.Drawing.Size(28, 35)
         Me.Moltiplica.TabIndex = 7
@@ -94,18 +95,28 @@ Partial Class Form1
         'Dividi
         '
         Me.Dividi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Dividi.Location = New System.Drawing.Point(228, 94)
+        Me.Dividi.Location = New System.Drawing.Point(226, 76)
         Me.Dividi.Name = "Dividi"
         Me.Dividi.Size = New System.Drawing.Size(28, 35)
         Me.Dividi.TabIndex = 8
         Me.Dividi.Text = "/"
         Me.Dividi.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(47, 137)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(206, 26)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "&Esci"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(292, 266)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Dividi)
         Me.Controls.Add(Me.Moltiplica)
         Me.Controls.Add(Me.Sottrai)
@@ -128,5 +139,6 @@ Partial Class Form1
     Friend WithEvents Sottrai As System.Windows.Forms.Button
     Friend WithEvents Moltiplica As System.Windows.Forms.Button
     Friend WithEvents Dividi As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class
