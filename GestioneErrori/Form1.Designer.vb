@@ -104,9 +104,10 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(47, 137)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(206, 26)
+        Me.Button1.Size = New System.Drawing.Size(206, 38)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "&Esci"
         Me.Button1.UseVisualStyleBackColor = True
